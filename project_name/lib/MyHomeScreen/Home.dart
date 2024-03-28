@@ -30,16 +30,15 @@ class _HomeState extends State<Home> {
 
   List<LatLng> bukCampusBoundaries = [
   //  Define the boundary points of Bahria University Karachi campus
-    LatLng(24.904843, 67.200169),
-    LatLng(24.905253, 67.202188),
-    LatLng(24.904486, 67.202620),
-    LatLng(24.903265, 67.199914),
-    LatLng(24.904843, 67.200169),
-
-    // LatLng(24.904843, 67.200169),
-    // LatLng(24.903052, 67.200017),
-    // LatLng(24.904354, 67.199597),
-    // LatLng(24.904843, 67.200169),
+    LatLng(24.892289, 67.087509),
+    LatLng(24.892994, 67.087197),
+    LatLng(24.893133, 67.087480),
+    LatLng(24.893374, 67.087323),
+    LatLng(24.893583, 67.087789),
+    LatLng(24.893815, 67.087675),
+    LatLng(24.893959, 67.088120),
+     LatLng(24.892629, 67.089244),
+     LatLng(24.892289, 67.087509),
   ];
 
   Set<Polygon> _bukCampusPolygons = {}; // Set to store the polygon boundary
